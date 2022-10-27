@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteRule "^login"  "login.php"  [L]
+RewriteRule "^signup" "signup.php"  [L]
+RewriteRule "^dash" "dash.php"  [L]
+RewriteRule "^srvypage" "srvypage.php"  [L]
+RewriteRule "^newpge" "newpge.php"  [L]
+RewriteRule "^ques" "ques.php"  [L]
+</IfModule>
